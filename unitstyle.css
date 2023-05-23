@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color:#f599ab;
+    background-size: cover;
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: #99f5e3;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+}
+
+#temp {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0px;
+    outline: none;
+}
+
+#temp_diff {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(238, 244, 237);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(244, 11, 244);
+    cursor: pointer;
+    height: 35px;
+    width: 120px;
+    border: 0px;
+    
+}
+
+#result{
+    font-size: 27px;
+    color: black;
+    font-family: Bree serif;
+}
+.heading{
+    font-size: 40px;
+    font-family: Bree serif;
+    color: black;
+}
+.image{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 10px;
+    margin-top: 1vh;
+    margin-left: 30px;
+  }
